@@ -8,6 +8,12 @@ header{
 p{
   font-size: 1.5em;
 }
+a:active{
+  color: black;
+}
+a:link{
+  color: black;
+}
 /*Classes*/
 .borders div{
   text-align: center;
@@ -20,5 +26,17 @@ p{
 .shape-up{
   border-radius: 100%;
   border: solid thick black;
-  padding: 5%;
+  padding: 4%;
+}
+.item{
+  background-color: #CFECCE;
+}
+
+.glyphicon{
+  margin-top: 100%;
+  width: 40%;
+  height: 15%;
+  border-radius: 100%;
+  background-color: #FFF;
+  opacity: 2;
 }
