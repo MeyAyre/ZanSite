@@ -1,0 +1,24 @@
+/*Elements*/
+header{
+  background-color: #6A5D92;
+  text-align: center;
+  color: white;
+}
+
+p{
+  font-size: 1.5em;
+}
+/*Classes*/
+.borders div{
+  text-align: center;
+  border: solid medium black;
+}
+.borders > .col-sm-3{
+  background-color: #77BDB5;
+  color: black;
+}
+.shape-up{
+  border-radius: 100%;
+  border: solid thick black;
+  padding: 5%;
+}
