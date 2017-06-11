@@ -13,6 +13,10 @@ html body{
   margin: 0 auto;
   width: 100%;
 }
+.push-down{
+  margin-top: 50%;
+  background-color: #77BDB5;
+}
 .carousel{
   width: 60%;
   margin: 0 auto;
