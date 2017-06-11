@@ -17,6 +17,13 @@ html body{
   margin-top: 50%;
   background-color: #77BDB5;
 }
+.shape-up{
+  border-radius: 100%;
+  border: solid thin black;
+  padding: 50%;
+  height: 100%;
+}
+
 .carousel{
   width: 60%;
   margin: 0 auto;

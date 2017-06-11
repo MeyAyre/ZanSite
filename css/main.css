@@ -23,12 +23,11 @@ a:link{
   background-color: #77BDB5;
   color: black;
 }
-.shape-up{
-  border-radius: 100%;
+
+.images{
   border: solid thin black;
-  padding: 50%;
-  height: 100%;
 }
+
 .item{
   background-color: #CFECCE;
 }
