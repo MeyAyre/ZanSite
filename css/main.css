@@ -14,6 +14,11 @@ a:active{
 a:link{
   color: black;
 }
+form{
+  font-size: 1.5em;
+  border: thin black solid;
+  text-align: center;
+}
 /*Classes*/
 .borders div{
   text-align: center;
