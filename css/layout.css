@@ -25,7 +25,7 @@ html body{
 }
 
 .carousel{
-  width: 60%;
+  width: 100%;
   margin: 0 auto;
 }
 .carousel-inner img {
@@ -37,11 +37,27 @@ html body{
 }
 
 .carousel-indicators li{
+  padding: 3em;
+  list-style-type: none;
+  width: 10%;
+}
+
+.carousel-indicators img{
+  max-width: 3em;
+  max-height: 3em;
+  position: relative;
+}
+
+.carousel-indicators{
+  bottom: -50%;
+}
+.carousel-indicators li .active{
+  max-width: 3em;
+  max-height: 3em;
   position: relative;
   display: inline-block;
-  margin-top: 10%;
-  background-color: black;
 }
+
 .container-fluid{
   position: relative;
 }
