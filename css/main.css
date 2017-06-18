@@ -1,4 +1,7 @@
 /*Elements*/
+body{
+  background-color: #6A5D92;
+}
 header{
   background-color: #6A5D92;
   text-align: center;
@@ -20,6 +23,14 @@ form{
   text-align: center;
 }
 /*Classes*/
+
+.back{
+  background-color: white;
+  width: 95%;
+  margin: 0 auto;
+  border: solid black medium;
+  border-top: none;
+}
 .borders div{
   text-align: center;
   border: solid thin black;
@@ -31,6 +42,13 @@ form{
 
 .images{
   border: solid thin black;
+  padding: 5%;
+  text-align: center;
+  background-color: #CFECCE;
+}
+
+.gal{
+  border: solid medium white;
 }
 
 .item{
