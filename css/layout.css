@@ -2,25 +2,91 @@
 html body{
   margin: 0;
   padding: 0;
-  font-family: "Open Sans Condensed";
+  font-family: "Open Sans Condensed", "Montserrat", "Muli";
 }
 
 /*Classes*/
+.col-sm-6 h2{
+  font-weight: 500;
+}
 .stack{
   height: 100%;
+}
+.more{
+  font-size: 4.2em;
+  margin-top: 0.8%;
+  font-weight: bold;
+}
+
+/*Ribbon code adapted from https://css-tricks.com/snippets/css/ribbon/ */
+.ribbon {
+ position: relative;
+ height: 6em;
+ background: #ba89b6;
+ color: #fff;
+ margin: 0.2em auto 3.3em;
+ text-shadow: 0px -1px 0px rgba(0,0,0,0.3);
+ box-shadow: inset 0px 1px 0px rgba(255,255,255,.3),
+					inset 0px 0px 20px rgba(0,0,0,0.1),
+					0px 1px 1px rgba(0,0,0,0.4);
+
+}
+.ribbon:before, .ribbon:after {
+ content: "";
+ position: absolute;
+ display: block;
+ bottom: -2em;
+ border: 2em solid #986794;
+ z-index: -1;
+}
+.ribbon:before {
+ left: -3em;
+ border-right-width: 3em;
+ border-left-color: transparent;
+}
+.ribbon:after {
+ right: -3em;
+ border-left-width: 3em;
+ border-right-color: transparent;
+}
+.ribbon .ribbon-content:before, .ribbon .ribbon-content:after {
+ content: "";
+ position: absolute;
+ display: block;
+ border-style: solid;
+ border-color: #804f7c transparent transparent transparent;
+ bottom: -0.5em;
+}
+.ribbon .ribbon-content:before {
+ left: 0;
+ border-width: 0.54em 0 0 0.5em;
+ z-index: 1;
+}
+.ribbon .ribbon-content:after {
+ right: -0.2%;
+ border-width: 0.54em 0.5em 0 0;
+ z-index: 1;
+}
+.protector{
+  position: relative;
+  z-index: 1;
 }
 .row{
   margin: 0 auto;
   width: 100%;
 }
 .push-down{
-  margin-top: 50%;
-  background-color: #77BDB5;
+  margin-top: 20%;
+  background-color: #ffb3e6;
+  text-shadow: 0px -1px 0px rgba(0,0,0,0.3);
+  box-shadow: inset 0px 1px 0px rgba(255,255,255,.3),
+ 					inset 0px 0px 20px rgba(0,0,0,0.1),
+ 					0px 1px 1px rgba(0,0,0,0.4);
 }
 .shape-up{
   border-radius: 100%;
   border: solid thin black;
-  padding: 50%;
+  padding: 40%;
   height: 100%;
 }
 
@@ -39,7 +105,7 @@ html body{
   max-height: 20.5em;
 }
 .centered{
-  font-size: 4.5em;
+  font-size: 4em;
   border-bottom: solid thin black;
 }
 .centered{
