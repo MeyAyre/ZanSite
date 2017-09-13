@@ -1,7 +1,8 @@
 /*Elements*/
 body{
   /* Polkadots adapted from https://codepen.io/danichk/pen/YyVeXa*/
-  background: #77BDB5;
+  /*background: #77BDB5;*/
+  background-color: #70dbdb;
   background-image:
     radial-gradient(white 20%, transparent 0),
     radial-gradient(white 20%, transparent 0);
@@ -18,15 +19,11 @@ header{
 p{
   font-size: 1.2em;
 }
-a:active{
-  color: black;
-}
+
 a:link{
   color: black;
 }
-a:visited{
-  color: black;
-}
+
 a:hover{
   text-decoration: none;
 }
@@ -35,8 +32,16 @@ form{
   font-size: 1.5em;
   border: thin black solid;
   text-align: center;
+  border-bottom: none;
+}
+label{
+  font-weight: normal;
 }
 /*Classes*/
+
+.blueLink{
+  color: #4286f4;
+}
 
 .back{
   background-color: white;
@@ -44,16 +49,13 @@ form{
   margin: 0 auto;
   border: solid black medium;
 }
-.borders div{
+.borders{
   text-align: center;
-  text-shadow: 0px -1px 0px rgba(0,0,0,0.3);
-  box-shadow: inset 0px 1px 0px rgba(255,255,255,.3),
- 					inset 0px 0px 20px rgba(0,0,0,0.1),
- 					0px 1px 1px rgba(0,0,0,0.4);
-}
-.borders > .col-sm-3{
-  background-color: #77BDB5;
-  color: black;
+  border-color: #ffb3e6;
+  border-width: thick;
+  outline-color:  #ffb3e6;
+  outline-width: thick;
+  outline-style: solid;
 }
 
 .images{
@@ -78,4 +80,22 @@ form{
   border-radius: 100%;
   background-color: #FFF;
   opacity: 2;
+}
+
+/*Heading sizes*/
+
+/* For accessiblity*/
+.headingSize1{
+  font-size: 2em;
+}
+.headingSize3{
+  font-size: 1.5em;
+}
+.headingSize4{
+  font-size: 1.15em;
+}
+
+/*nav heading*/
+.navHeading2{
+  font-size: 1.75em;
 }
